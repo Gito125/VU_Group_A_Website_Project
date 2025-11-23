@@ -1,0 +1,131 @@
+/* GLOBAL STYLES */
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    color: #222;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #f7a8f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.navlinks a:hover,
+.navlinks a.active {
+    color: #290229;
+}
+
+
+.zerinda {
+  margin-left: 50px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.zerinda h2 {
+  font-size: 5rem; /* 80px */
+}
+
+.zerinda p {
+  font-size: 1.5rem; /* 24px */
+  margin: 10px 0 20px;
+}
+/* HERO SECTION */
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.bg-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.8; /* Transparency */
+  position: absolute;
+  z-index: -1;
+}
+
+.btn {
+  background-color: #f7a8f7;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #6AD96A;
+  color: white;
+}
+
+
+/* CTA BUTTON */
+.cta-btn {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 12px 30px;
+  color: #d96ad9;
+  font-size: 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.cta-btn:hover {
+  background-color: #6AD96A;
+  color: #ffffff;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: black;  /* black */
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section * {
+    margin: 5px;
+    color: #fff;
+}

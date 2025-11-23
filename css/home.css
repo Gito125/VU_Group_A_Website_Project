@@ -1,0 +1,103 @@
+/* Stats Section */
+.stats-section {
+  background-color: #f0e0f0;
+  padding: 60px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat-item {
+  margin: 20px;
+  min-width: 200px;
+}
+
+.stat-item {
+  font-size: 36px;
+  color: #4a004a;
+}
+
+.stat-item p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* VALUE SECTION */
+.value-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.value-section h2 {
+  font-size: 32px;
+  color: #555;
+}
+
+.value-section p {
+  max-width: 800px;
+  font-size: 18px;
+  margin: 20px auto;
+  color: #444;
+}
+
+.value-card {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.factor-card {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.192);
+  width: 250px;
+  text-align: center;
+}
+
+.values-grid,
+.factors-grid {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* NEW FACTORS SECTION */
+.factors-section {
+  padding: 20px 20px;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.factors-section h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 2rem;
+  color: #4a004a;
+}
+
+.factors-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* CTA SECTION */
+.cta-section {
+  text-align: center;
+  padding: 70px 20px;
+  background-color: #f7a8f7;
+}
+
+.cta-section h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.cta-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}

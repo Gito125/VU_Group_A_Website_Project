@@ -1,0 +1,98 @@
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    margin-top: 2rem;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* ---------- CONTACT FORM ---------- */
+.contact-form {
+    background: #f7a8f7;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.contact-form form {
+    width: 600px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+textarea.form-control {
+    height: 120px;
+    resize: vertical;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checkbox-group label {
+    margin-left: 8px;
+}
+
+/* BUTTON */
+.btn {
+    background: var(--primary);
+    color: white;
+    padding: 14px;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #246d9c;
+}
+
+/* ---------- INFO CARDS ---------- */
+.info-grid {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.info-card {
+    background: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.info-card i {
+    font-size: 2.2rem;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
